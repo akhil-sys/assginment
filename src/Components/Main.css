@@ -1,0 +1,77 @@
+.mainText {
+  position: absolute;
+  width: 406.84px;
+  height: 124px;
+  left: 100px;
+  top: 174.88px;
+
+  /* Heading/1 */
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 70px;
+
+  /* Neutral/800 */
+
+  color: #292e3d;
+}
+.FeatureProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 15px 15px;
+
+  position: absolute;
+  width: 416px;
+  height: 150px;
+  right: 0px;
+  bottom: 40px;
+
+  background: #3559c7;
+  border-radius: 2px 2px 0px 0px;
+}
+.BackButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px;
+
+  position: absolute;
+  width: 208px;
+  height: 40px;
+  right: 0px;
+  bottom: -40px;
+
+  /* Neutral/800 */
+
+  background: #292e3d;
+}
+.NextButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px;
+
+  position: absolute;
+  width: 208px;
+  height: 40px;
+  right: 208px;
+  bottom: -40px;
+
+  /* Neutral/800 */
+
+  background: #292e3d;
+}
+.main1 {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.9) 16.58%,
+      rgba(255, 255, 255, 0) 72.38%
+    ),
+    url(../backGround.jpg);
+  height: 60vh;
+}

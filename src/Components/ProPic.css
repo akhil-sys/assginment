@@ -1,0 +1,22 @@
+.About {
+  position: absolute;
+  width: 488px;
+  height: 523px;
+  left: 1000px;
+  top: 1286px;
+
+  /* Primary */
+
+  background: #2947a9;
+  /* Shadow 1 */
+
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+}
+.image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.About[data-aos="slide-left"] {
+  -webkit-transform: translate3d(600px, 0, 0);
+  transform: translate3d(600px, 0, 0);
+}
